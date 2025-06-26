@@ -11,7 +11,7 @@ public class DemoApplication {
 
     @GetMapping("/welcome")
     public String welcome() {
-        return "Welcome to the Spring Boot Application!!!";
+        return "Welcome to the Spring Boot Application demo first day!!!";
     }
 
     public static void main(String[] args) {
